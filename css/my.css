@@ -1,0 +1,274 @@
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+
+
+  * {
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  }
+  
+  body, html {
+      height: 100%;
+      font-family: Poppins-Regular, sans-serif;
+  }
+  
+
+  a {
+      font-family: Poppins-Regular;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #e6e6e6;
+      margin: 0px;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+  }
+  
+  a:focus {
+      outline: none !important;
+  }
+  
+  a:hover {
+      text-decoration: none;
+    color: #57b846;
+  }
+  
+
+
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+  
+ 
+  button {
+      outline: none !important;
+      border: none;
+      background: transparent;
+  }
+  
+  button:hover {
+      cursor: pointer;
+  }
+  
+  iframe {
+      border: none !important;
+  }
+
+  .zapomniales {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #e6e6e6;
+  }
+  
+  .loginhaslo {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #e6e6e6;
+  }
+  
+  .glownatresc {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .tlo {
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-image: url("orch2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+ 
+  .dolnybox {
+    width: 450px;
+    background: rgb(116, 117, 117);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    border-radius: 4px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 100px 100px 100px;
+  }
+  .dolnybox2 {
+    width: 600px;
+    background: rgb(116, 117, 117);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    overflow: hidden;
+  
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 300px 300px 300px 300px;
+  }
+  .obrazek {
+    width: 400px;
+  }
+  
+  .obrazek img {
+    max-width: 100%;
+  }
+  
+  .napislogindiv {
+    width: 290px;
+  }
+  
+  .napislogin {
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+  
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+  }
+  
+  .loginhasloinput {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+  
+  .tekstinput {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+  
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+  }
+  
+  
+  
+  .container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .login100-form-btn {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    
+    text-transform: uppercase;
+  
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #e6e6e6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .login100-form-btn:hover {
+    background: #333333;
+    color: #fff;
+  }
+
+  
+  
+  
+  .wyloguj {
+    font-family: Poppins-Regular;
+    line-height: 1.7;
+    color: #e6e6e6;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  background: rgb(33, 34, 34);
+  font-family: Poppins-Bold;
+
+
+}
+
+.wyloguj:focus {
+    outline: none !important;
+}
+
+.wyloguj:hover {
+    text-decoration: none;
+   color: #57b846;
+   cursor: pointer; 
+}
+.nap {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  text-align: center;
+}
